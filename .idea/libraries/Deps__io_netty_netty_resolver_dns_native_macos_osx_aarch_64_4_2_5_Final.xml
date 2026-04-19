@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Deps: io.netty/netty-resolver-dns-native-macos$osx-aarch_64:4.2.5.Final">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-native-macos/4.2.5.Final/netty-resolver-dns-native-macos-4.2.5.Final-osx-aarch_64.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

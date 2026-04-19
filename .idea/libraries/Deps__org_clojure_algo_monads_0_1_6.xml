@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Deps: org.clojure/algo.monads:0.1.6">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/clojure/algo.monads/0.1.6/algo.monads-0.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

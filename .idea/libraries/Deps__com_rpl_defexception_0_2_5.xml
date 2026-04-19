@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Deps: com.rpl/defexception:0.2.5">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/rpl/defexception/0.2.5/defexception-0.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

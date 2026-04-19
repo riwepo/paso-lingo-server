@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Deps: com.rpl/rama-shaded-asm:4.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/rpl/rama-shaded-asm/4.2/rama-shaded-asm-4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

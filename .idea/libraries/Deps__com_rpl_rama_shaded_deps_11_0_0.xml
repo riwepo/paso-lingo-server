@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Deps: com.rpl/rama-shaded-deps:11.0.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/rpl/rama-shaded-deps/11.0.0/rama-shaded-deps-11.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

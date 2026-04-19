@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Deps: lambdaisland/kaocha:0.0-581">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/lambdaisland/kaocha/0.0-581/kaocha-0.0-581.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

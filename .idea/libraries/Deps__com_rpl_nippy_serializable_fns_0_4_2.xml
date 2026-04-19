@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Deps: com.rpl/nippy-serializable-fns:0.4.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/rpl/nippy-serializable-fns/0.4.2/nippy-serializable-fns-0.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Deps: org.bitbucket.mstrobel/procyon-compilertools:0.5.34">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/bitbucket/mstrobel/procyon-compilertools/0.5.34/procyon-compilertools-0.5.34.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

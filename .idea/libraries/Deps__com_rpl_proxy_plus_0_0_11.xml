@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Deps: com.rpl/proxy-plus:0.0.11">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/rpl/proxy-plus/0.0.11/proxy-plus-0.0.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
