@@ -7,7 +7,7 @@
 (defrecord UpdateUserRole [user-id role])
 (defrecord UpdateUserPreferences [user-id preferences])
 
-(defmodule UserDetailsModule
+(defmodule UsersModule
   [setup topologies]
   ;; Depot partitioned by user-id
   (declare-depot setup *users-depot (hash-by :user-id))
@@ -19,13 +19,15 @@
       $$users
       {String (fixed-keys-schema
                 {:role #{:guest :member :admin}
-                 :preferences map})})
+                 :preferences (fixed-keys-schema
+                                {:language String
+                                 :questions Boolean})})})
 
     ;; Sources: consume depot events
     (<<sources s
       (source> *users-depot :> *data)
 
-      ;; New membership creation
+      ;; New user creation
       (<<subsource *data
                    (case> NewUser :> {:keys [*user-id *role *preferences]})
                    (local-transform> [(keypath *user-id)
