@@ -1,6 +1,7 @@
 (ns modules.todo2
-  (:use [com.rpl.rama]
-        [com.rpl.rama path]))
+  (:require [com.rpl.rama :refer :all]
+            [com.rpl.rama.path :refer [termval merge-termval must keypath local-transform>]]))
+
 
 (defrecord NewTodo [user-id text])
 (defrecord CompleteTodo [user-id index time-millis])

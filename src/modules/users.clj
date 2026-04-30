@@ -1,6 +1,6 @@
 (ns modules.users
-  (:use [com.rpl.rama]
-        [com.rpl.rama path]))
+  (:require [com.rpl.rama :refer :all]
+            [com.rpl.rama.path :refer [termval merge-termval must keypath local-transform>]]))
 
 ;; Event records
 (defrecord NewUser [user-id role preferences])
