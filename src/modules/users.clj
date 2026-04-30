@@ -42,5 +42,5 @@
 
                    ;; Preferences update (merge map)
                    (case> UpdateUserPreferences :> {:keys [*user-id *preferences]})
-                   (local-transform> [(must *user-id) :preferences (mergeval *preferences)]
+                   (local-transform> [(must *user-id) :preferences (merge-termval *preferences)]
                                 $$users)))))
